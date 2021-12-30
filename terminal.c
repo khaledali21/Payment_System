@@ -24,7 +24,7 @@ uint8_t getTerminalData(ST_terminalData_t* pstr_terminalInfo){
 	{
 		return 0;
 	}
-	printf("Please Enter transaction Date: \n"); fflush(stdout);
+	printf("\nPlease Enter transaction Date: \n"); fflush(stdout);
 	gets(pstr_terminalInfo -> transactionDate);
 	return 1;
 }
